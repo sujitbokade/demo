@@ -2,7 +2,7 @@
 
 Foldername=""
 listoffile=`ls *.txt`
-eco $listoffile
+echo $listoffile
 
 for filename in $listoffile
 do

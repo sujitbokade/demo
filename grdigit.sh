@@ -8,11 +8,12 @@ read z
 
 if [ $x -gt $y ] && [ $x -gt $z ]
  then
-       echo X= $x
+       echo = $x
 elif [ $y -gt $x ] && [ $y -gt $z ]
 then
-      echo Y= $y
+      echo = $y
 else
-     echo Z= $z
+	echo = $z
+
 fi
 

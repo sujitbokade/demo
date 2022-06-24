@@ -1,6 +1,5 @@
-echo "Enter a Number: "
-read a b
 
-aera=`echo $a \* $b|bc`
-echo "Area is $area"
+
+calc() { awk "BEGIN{print $*}"; }
+echo `calc 24/12`
 
